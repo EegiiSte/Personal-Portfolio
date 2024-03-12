@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- swiper css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--  box icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--   custom css  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Mar 9 2024</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">EgiTs.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" class="">About</a>
+        <!-- <a href="#services" class="">Services</a> -->
+        <a href="#portfolio" class="">Portfolio</a>
+        <!-- <a href="#testimonial" class="">Testimonial</a> -->
+        <a href="#contact" class="">Contact</a>
+      </nav>
+
+      <i class="bx bx-moon" id="darkMode-icon"></i>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- homesection -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Egi Tseren</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi
+          inventore impedit vel unde nostrum sit velit sed.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/erdenebayar-tserendagva-563094275/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/EegiiSte" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/egi_dnbr/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/erdenebayar.tserendagva"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Full Stack</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-code"></i>
+            <h3>Frontend</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-code-block"></i>
+            <h3>Backend</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bxl-graphql"></i>
+            <h3>Web Design</h3>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/home.PNG" alt="" />
+      </div>
+    </section>
+
+    <!-- about section Design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/AD0FBF58-15A3-4575-857F-D269EBDFDFE9.PNG" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help Your Next Project!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          officia voluptatum labore quidem odit similique, eius, quod quos
+          pariatur vero delectus earum molestias illum sapiente amet repellendus
+          facilis, praesentium sit consequuntur perspiciatis mollitia animi
+          laborum iste. Odit consequatur facere expedita.
+        </p>
+        <div class="skill-container">
+          <h2>Skills :</h2>
+          <div class="social-media">
+            <a href="#" target="_blank"><i class="bx bxl-javascript"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-typescript"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-nodejs"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-react"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-mongodb"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section Design -->
+
+    <!-- <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Full Stack Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            sapiente labore ab consequatur, quis doloremque, nam nihil error ad
+            repellendus, fugiat voluptatum?
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Web Design</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            sapiente labore ab consequatur, quis doloremque, nam nihil error ad
+            repellendus, fugiat voluptatum?
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Dijital Marketing</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            sapiente labore ab consequatur, quis doloremque, nam nihil error ad
+            repellendus, fugiat voluptatum?
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- portfilio section Design -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Lastest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/p2paint.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>P2Paint</h4>
+            <p>
+              Paint Exchange: Our user-friendly platform makes it easy to list,
+              sell, or swap your leftover paints. <br />
+              React.js · Node.js · MongoDB · Express.js · Next.js · Ant Design
+            </p>
+            <a
+              href="https://paint-exchange-full-stack-r3kx.vercel.app/"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/foodrev.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Foodrev</h4>
+            <p>
+              Explore tasty reviews, share your thoughts, and connect with
+              foodies. It's your flavorful space for easy, fun, and delicious
+              discussions!
+            </p>
+            <a href="https://foodrev-crud.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/apple sreen shot.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Apple Clone Website</h4>
+            <p>
+              "Crafted during my HTML and CSS learning journey, this website is
+              an homage to Apple's design, showcasing my frontend skills.
+              Explore my clone project, a testament to dedication and progress.
+              🚀 #WebDevelopment #FrontendJourney"
+            </p>
+            <a href="https://appleegi-41cce.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/cloneTesla.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Tesla Clone Website</h4>
+            <p>
+              "Explore my learning journey in web development with a
+              Tesla-inspired clone website. Crafted using HTML and CSS, this
+              project showcases my early frontend skills. Take a glimpse into my
+              coding adventure!"
+            </p>
+            <a href="https://tesla-d5bb3.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img
+            src="https://backend.nakedideas.com/wp-content/uploads/2020/10/google_dinosaur_game.jpg"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>Dinegi Game</h4>
+            <p>
+              "Explore Dinegi, my exciting Dinosaur Game clone! Dive into the
+              world of fun and adventure that I crafted while mastering HTML and
+              CSS. Experience the thrill of this classic game on my web landing
+              page!"
+            </p>
+            <a href="https://dinosaur-5de04.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/008/420/424/original/cute-robot-cartoon-icon-illustration-science-technology-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>API</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              quam molestiae!
+            </p>
+            <a href="https://api-1-66ee0.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img
+            src="https://cdn.dribbble.com/users/623265/screenshots/4743987/shiba_inu_icon_800x600.jpg"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>Shiba Inu</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              quam molestiae!
+            </p>
+            <a href="https://api-2-7c944.web.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section Design -->
+    <!-- <section class="testimonial" id="testimonial">
+      <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+        <div class="testimonial-wrapper">
+          <div class="testimonial-box mySwiper">
+            <div class="testimonial-content swiper-wrapper">
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/testimonial1.jpeg" alt="" />
+                <h3>Jacson Levi</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ipsum aut assumenda eaque itaque est laboriosam impedit. Eius
+                  inventore, voluptates repudiandae corrupti impedit quo quaerat
+                  neque ipsam tempora labore tempore, sequi, incidunt officia ex
+                  voluptatum itaque ad optio. Architecto asperiores, dolorem
+                  necessitatibus ipsum cum consectetur unde, consequatur maiores
+                  molestias magni quisquam porro dolorum maxime fugit iure quos
+                  molestiae animi culpa et!
+                </p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/testimonial2.jpeg" alt="" />
+                <h3>Hero Ocean/Tengis Baatar</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ipsum aut assumenda eaque itaque est laboriosam impedit. Eius
+                  inventore, voluptates repudiandae corrupti impedit quo quaerat
+                  neque ipsam tempora labore tempore, sequi, incidunt officia ex
+                  voluptatum itaque ad optio. Architecto asperiores, dolorem
+                  necessitatibus ipsum cum consectetur unde, consequatur maiores
+                  molestias magni quisquam porro dolorum maxime fugit iure quos
+                  molestiae animi culpa et!
+                </p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/testimonial3.jpeg" alt="" />
+                <h3>Julia Grayson</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ipsum aut assumenda eaque itaque est laboriosam impedit. Eius
+                  inventore, voluptates repudiandae corrupti impedit quo quaerat
+                  neque ipsam tempora labore tempore, sequi, incidunt officia ex
+                  voluptatum itaque ad optio. Architecto asperiores, dolorem
+                  necessitatibus ipsum cum consectetur unde, consequatur maiores
+                  molestias magni quisquam porro dolorum maxime fugit iure quos
+                  molestiae animi culpa et!
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Adress" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by CodeET | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home">
+          <i class="bx bx-up-arrow-alt"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js  -->
+    <script src="/script.js"></script>
+  </body>
+</html>
